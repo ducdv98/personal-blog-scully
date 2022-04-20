@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import './assets/code.scss';
+@import './assets/custom-tailwind-base.css';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: color 200ms ease-in-out, background-color 200ms ease-in-out,
+  border-color 200ms ease-in-out, fill 200ms ease-in-out, stroke 200ms ease-in-out;
+}
+
+h1 {
+  @apply text-5xl;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3 {
+  @apply text-3xl;
+}
+
+h4 {
+  @apply text-2xl;
+}
+
+h5 {
+  @apply text-xl;
+}
+
+h6 {
+  @apply text-lg;
+}
+
+@screen lg {
+  body {
+    height: 100vh;
+  }
+}
+
+.theme-dark {
+  h6 > strong {
+    @apply text-white;
+    background-color: #111b27;
+  }
+}
+
+.theme-light {
+  h6 > strong {
+    @apply text-black;
+    background-color: #e3eaf2;
+  }
+}

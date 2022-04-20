@@ -1,0 +1,11 @@
+identifier: l5117eod84gan0wb
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: personal-blog-scully
+homeFolder: D:\Projects\personal-blog-scully
+distFolder: dist/personal-blog-scully
+outDir: D:\Projects\personal-blog-scully\dist\static
+handle404: ''
+allowErrorCollect: true
