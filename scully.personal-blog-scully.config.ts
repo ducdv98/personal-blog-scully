@@ -25,7 +25,7 @@ export const config: ScullyConfig = {
       type: NotionDomRouter,
       postRenderers: [NotionDom],
       databaseId: 'c7afb6392a0b463fb2315a79206378e3',
-      notionApiKey: 'secret_ehCaJxfzKzG9qNb7HuCvArsfcOny1FTrUU4ZOg9STVa',
+      notionApiKey: 'secret_cXGVNRNWwqecXmLIkfljlX6IWq3hNzUxtDlulHgBgi5',
       basePath: '/blog', // optional, should match your route here
       titleSuffix: '', // optional
       slugKey: 'slug', // optional
